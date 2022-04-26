@@ -1,11 +1,11 @@
 // 1. Написать скриптик, который сосчитает и выведет результат от возведения 2 в степень 10, начиная со степени 1
 
 let x = 2;
-let result = x;
+let result = 1;
 
 for ( let i = 1; i <= 10; i++){
   result *= x;
-  
+  console.log (result)
 }
 console.log (result)
 
