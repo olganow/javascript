@@ -5,7 +5,7 @@ let result = 1;
 
 for ( let i = 1; i <= 10; i++){
   result *= x;
-  console.log (result)
+ 
 }
 console.log (result)
 
@@ -15,7 +15,7 @@ console.log (result)
 
 
 function  exponent(x, b) {
-  let result = x;
+  let result = 1;
   for (let i = 1; i <= b; i++) {
     result *= x;
    
@@ -23,7 +23,7 @@ function  exponent(x, b) {
   return result;
 }
 
-exponent(2, 10);
+console.log(exponent(2, 10));
 
 
 //2. Написать скрипт, который выведет 5 строк в консоль таким образом, чтобы в первой строчке выводилось :), во второй :):) и так далее
